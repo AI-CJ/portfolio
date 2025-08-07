@@ -131,14 +131,6 @@ main {
   text-decoration: underline;
 }
 
-#blog ul {
-  list-style: disc;
-  margin-left: 1.1rem;
-  color: #3a4d5c;
-  font-size: 0.98rem;
-}
-#blog a { color: var(--primary); }
-
 .contact-links {
   list-style: none;
   display: flex;

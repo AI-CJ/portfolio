@@ -17,7 +17,7 @@ fetch('projects.json')
     const projectList = document.querySelector('.project-list');
     projectList.innerHTML = projects.map(proj => `
       <div class="project-card">
-        <img src="${proj.img}" alt="Screenshot of ${proj.title}" />
+        ${proj.img ? `<img src="${proj.img}" alt="Screenshot of ${proj.title}" />` : ""}
         <h3>${proj.title}</h3>
         <p>${proj.description}</p>
         <span class="stack">${proj.stack.join(', ')}</span>

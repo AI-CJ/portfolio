@@ -32,7 +32,6 @@
     "description": "A robust command-line to-do app with priorities, due dates, and persistent storage (Python).",
     "live": "",
     "code": "https://github.com/ai-cj/todo-cli",
-    "img": "img/todo-cli.png",
     "stack": ["Python"],
     "bullets": [
       "Persistent JSON storage, priorities, due dates",

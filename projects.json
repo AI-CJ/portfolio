@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Calculator Web App",
+    "description": "A responsive, accessible calculator app with keyboard support, dark/light theme, and robust error handling.",
+    "live": "https://calculator-aicj.netlify.app/",
+    "code": "https://github.com/ai-cj/calculator",
+    "img": "img/calculator.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "bullets": [
+      "Responsive, modern UI with keyboard support",
+      "Dark/light theme toggle and accessibility features",
+      "Robust input validation and error handling",
+      "Fully tested and deployed live"
+    ]
+  },
+  {
+    "title": "Number Guessing Game",
+    "description": "A fun guessing game with keyboard controls, input validation, and accessibility for all users.",
+    "live": "https://numberguess-aicj.netlify.app/",
+    "code": "https://github.com/ai-cj/number-guess",
+    "img": "img/numberguess.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "bullets": [
+      "Real-time feedback and guess history",
+      "Keyboard and screen reader friendly",
+      "Tested manually and with JS tests",
+      "Deployed for instant demo"
+    ]
+  },
+  {
+    "title": "To-Do List CLI",
+    "description": "A robust command-line to-do app with priorities, due dates, and persistent storage (Python).",
+    "live": "",
+    "code": "https://github.com/ai-cj/todo-cli",
+    "img": "img/todo-cli.png",
+    "stack": ["Python"],
+    "bullets": [
+      "Persistent JSON storage, priorities, due dates",
+      "Colorful output with Colorama for clarity",
+      "Automated tests and robust error handling",
+      "Professional README and manual test plan"
+    ]
+  }
+]

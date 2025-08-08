@@ -2,121 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CJ Ackley | Software Engineer</title>
+  <link rel="icon" href="img/favicon.png" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="img/favicon.png" />
-  <meta name="description" content="Portfolio of CJ Ackley - Software Engineer. Projects, Resume, and Contact. Open to internships." />
 </head>
 <body>
   <header>
     <nav>
-      <div class="nav-left">CJ Ackley</div>
-      <div class="nav-right">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
-        <a href="#contact">Contact</a>
-        <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
-      </div>
+      <span>CJ Ackley</span>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
     </nav>
   </header>
   <main>
     <section id="about">
       <h1>CJ Ackley</h1>
       <h2>Aspiring Software Engineer</h2>
-      <p>
-        I build robust, maintainable software—from thoughtfully architected web apps to production-ready command-line tools. I thrive on solving real challenges with code that's both elegant and reliable. Open to learning, collaborating, and making an impact through engineering.
-      </p>
-      <ul class="skills">
-        <li>Python</li>
-        <li>JavaScript (ES6+)</li>
-        <li>Node.js</li>
-        <li>React</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>SQL</li>
-        <li>Git</li>
+      <p>I build robust, maintainable software—from thoughtfully architected web apps to production-ready command-line tools. I thrive on solving real challenges with code that's both elegant and reliable.</p>
+      <ul>
+        <li>Python</li><li>JavaScript</li><li>Node.js</li><li>React</li>
+        <li>HTML</li><li>CSS</li><li>SQL</li><li>Git</li>
       </ul>
     </section>
-
     <section id="projects">
       <h2>Projects</h2>
-      <div class="project-list">
-        <!-- Calculator Web App -->
-        <div class="project-card">
-          <img src="img/calculator.png" alt="Calculator Web App Screenshot" />
-          <div>
-            <h3>Calculator Web App</h3>
-            <p class="tech">HTML · CSS · JavaScript</p>
-            <p>
-              Responsive, accessible calculator with keyboard support, theming, and robust validation. Designed for clarity and usability on all devices.
-            </p>
-            <ul>
-              <li>Modern responsive UI, keyboard and mouse input</li>
-              <li>Dark/light mode, accessible for all users</li>
-              <li>Edge-case resistant, fully tested</li>
-            </ul>
-            <div class="links">
-              <a href="https://polite-rugelach-549c2f.netlify.app/" target="_blank">Live Demo</a>
-              <a href="https://github.com/ai-cj/calculator" target="_blank">Source</a>
-            </div>
-          </div>
-        </div>
-        <!-- Number Guessing Game -->
-        <div class="project-card">
-          <img src="img/numberguess.png" alt="Number Guessing Game Screenshot" />
-          <div>
-            <h3>Number Guessing Game</h3>
-            <p class="tech">HTML · CSS · JavaScript</p>
-            <p>
-              Accessible browser game with keyboard shortcuts, input validation, and a smooth dark/light theme transition.
-            </p>
-            <ul>
-              <li>Keyboard and screen reader support</li>
-              <li>Real-time feedback, guess history</li>
-              <li>Tested and deployed for all major browsers</li>
-            </ul>
-            <div class="links">
-              <a href="https://numberguess-aicj.netlify.app/" target="_blank">Live Demo</a>
-              <a href="https://github.com/ai-cj/number-guess" target="_blank">Source</a>
-            </div>
-          </div>
-        </div>
-        <!-- To-Do List CLI -->
-        <div class="project-card cli">
-          <div>
-            <h3>To-Do List CLI</h3>
-            <p class="tech">Python</p>
-            <p>
-              Command-line to-do manager with priorities, due dates, persistent JSON storage, and colorized output.
-            </p>
-            <ul>
-              <li>Priorities, due dates, and persistent data</li>
-              <li>Rich CLI experience (Colorama)</li>
-              <li>Automated/manual tests, professional docs</li>
-            </ul>
-            <div class="links">
-              <a href="https://github.com/ai-cj/todo-cli" target="_blank">Source</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="projects-list"></div>
     </section>
-
     <section id="contact">
       <h2>Contact</h2>
-      <div class="contact-info">
-        <a href="mailto:aicj.dev@gmail.com">aicj.dev@gmail.com</a>
-        <a href="https://github.com/ai-cj" target="_blank">GitHub</a>
+      <p>
+        <a href="mailto:aicj.dev@gmail.com">aicj.dev@gmail.com</a> ·
+        <a href="https://github.com/ai-cj" target="_blank">GitHub</a> ·
         <a href="https://linkedin.com/in/cjackley" target="_blank">LinkedIn</a>
-      </div>
+      </p>
     </section>
   </main>
   <footer>
-    <div>
-      &copy; 2025 CJ Ackley — Software Engineer
-    </div>
+    &copy; 2025 CJ Ackley — Software Engineer
   </footer>
   <script src="script.js"></script>
 </body>

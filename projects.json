@@ -1,43 +1,36 @@
 [
   {
     "title": "Calculator Web App",
-    "description": "A responsive, accessible calculator app with keyboard support, dark/light theme, and robust error handling.",
+    "description": "Responsive, accessible calculator with keyboard support and theming.",
     "live": "https://polite-rugelach-549c2f.netlify.app/",
     "code": "https://github.com/ai-cj/calculator",
     "img": "img/calculator.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
     "bullets": [
-      "Responsive, modern UI with keyboard support",
-      "Dark/light theme toggle and accessibility features",
-      "Robust input validation and error handling",
-      "Fully tested and deployed live"
+      "Modern, mobile-friendly UI",
+      "Dark/light mode",
+      "Keyboard and mouse input"
     ]
   },
   {
     "title": "Number Guessing Game",
-    "description": "A fun guessing game with keyboard controls, input validation, and accessibility for all users.",
+    "description": "Accessible guessing game with keyboard controls and real-time feedback.",
     "live": "https://numberguess-aicj.netlify.app/",
     "code": "https://github.com/ai-cj/number-guess",
     "img": "img/numberguess.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
     "bullets": [
-      "Real-time feedback and guess history",
-      "Keyboard and screen reader friendly",
-      "Tested manually and with JS tests",
-      "Deployed for instant demo"
+      "Accessible, responsive UI",
+      "Guess history and input validation",
+      "Deployed live"
     ]
   },
   {
     "title": "To-Do List CLI",
-    "description": "A robust command-line to-do app with priorities, due dates, and persistent storage (Python).",
-    "live": "",
+    "description": "Command-line to-do app with priorities, due dates, and persistent storage (Python).",
     "code": "https://github.com/ai-cj/todo-cli",
-    "stack": ["Python"],
     "bullets": [
-      "Persistent JSON storage, priorities, due dates",
-      "Colorful output with Colorama for clarity",
-      "Automated tests and robust error handling",
-      "Professional README and manual test plan"
+      "JSON storage, priorities, due dates",
+      "Colorful output (Colorama)",
+      "Automated/manual tests"
     ]
   }
 ]

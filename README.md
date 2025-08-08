@@ -2,7 +2,7 @@
 
 A modern, accessible, and responsive portfolio website to showcase my projects, resume, and skills for software engineering internships.
 
-**Live:** [https://jamiekim-portfolio.netlify.app/](https://jamiekim-portfolio.netlify.app/)
+**Live:** [https://portfolio-aicj.netlify.app/]
 
 ## 🚀 Projects
 
@@ -35,8 +35,8 @@ See [TESTING.md](./TESTING.md)
 ## 📫 Contact
 
 - **Email:** aicj.dev@gmail.com
-- **LinkedIn:** [linkedin.com/in/jamiekimdev](https://linkedin.com/in/cjackley)
-- **GitHub:** [github.com/jamiekimdev](https://github.com/ai-cj)
+- **LinkedIn:** [linkedin.com/in/cjackley](https://linkedin.com/in/cjackley)
+- **GitHub:** [github.com/ai-cj](https://github.com/ai-cj)
 
 ---
 

@@ -78,3 +78,15 @@ body.dark .skills-bar {
   color: var(--ter-ll);
   border-bottom: 2px solid #3b2c25;
 }
+
+.project:hover,
+.project:focus-within {
+  border-color: var(--ter);
+  box-shadow: 0 8px 28px #d06d45aa; /* Use same shadow as dark mode */
+}
+
+body.dark .project:hover,
+body.dark .project:focus-within {
+  border-color: var(--ter-ll);
+  box-shadow: 0 8px 28px #d06d45aa;
+}

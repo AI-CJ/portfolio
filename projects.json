@@ -2,7 +2,7 @@
   {
     "title": "Calculator Web App",
     "description": "A responsive, accessible calculator app with keyboard support, dark/light theme, and robust error handling.",
-    "live": "https://calculator-aicj.netlify.app/",
+    "live": "https://polite-rugelach-549c2f.netlify.app/",
     "code": "https://github.com/ai-cj/calculator",
     "img": "img/calculator.png",
     "stack": ["HTML", "CSS", "JavaScript"],

@@ -57,3 +57,24 @@ body.dark .project img{background:#232325;border-color:#393837;}
 body.dark footer{color:#9a9a9a;border-top-color:#393837;}
 body.dark .project p,body.dark .project ul{color:#e2e3e7;}
 body.dark #about p{color:#f8d0adf5;}
+
+.skills-bar {
+  margin: 1em 0 0 0;
+  font-size: 1.08em;
+  color: var(--ter);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.5em 0;
+  border-bottom: 2px solid var(--ter-ll);
+  border-radius: 0;
+  background: none;
+  text-align: center;
+  white-space: normal;
+  /* Responsive wrap if needed */
+  word-break: break-word;
+}
+
+body.dark .skills-bar {
+  color: var(--ter-ll);
+  border-bottom: 2px solid #3b2c25;
+}

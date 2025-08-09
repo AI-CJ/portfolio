@@ -16,13 +16,11 @@
     localStorage.setItem('theme', theme);
 
     if (themeBtn) {
-      // Update button content and a11y
       themeBtn.textContent = theme === 'dark' ? '☀️' : '☾';
       themeBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
       themeBtn.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
     }
 
-    // Keep the <meta name="color-scheme"> accurate (helps UA pick form/scrollbar colors)
     const meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) meta.setAttribute('content', theme === 'dark' ? 'dark light' : 'light dark');
   }
@@ -35,7 +33,6 @@
     });
   }
 
-  // If user hasn't explicitly set a theme, follow OS changes
   if (prefersMq) {
     prefersMq.addEventListener('change', (e) => {
       const stored = localStorage.getItem('theme');

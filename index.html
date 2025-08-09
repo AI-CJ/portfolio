@@ -3,46 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
   <title>CJ Ackley | Software Engineer</title>
   <link rel="icon" href="img/favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
   <header>
     <nav>
       <span>CJ Ackley</span>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="resume.pdf" download type="application/pdf" aria-label="Download resume (PDF)">Resume</a>
       <a href="#contact">Contact</a>
-      <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
+      <button id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">☾</button>
     </nav>
   </header>
-  <main>
+
+  <main id="main">
     <section id="about">
       <h1>CJ Ackley</h1>
       <h2>Aspiring Software Engineer</h2>
-      <p>I build robust, maintainable software — from thoughtful web apps to production-ready command-line tools. I thrive on solving real challenges with code that's both elegant and reliable.</p>
+      <p>I build robust, maintainable software -- from thoughtful web apps to production-ready command-line tools. I thrive on solving real challenges with code that's both elegant and reliable.</p>
       <div class="skills-bar">
         Python | JavaScript | Node.js | React | HTML | CSS | SQL | Git
       </div>
     </section>
+
     <section id="projects">
       <h2>Projects</h2>
-      <div id="projects-list"></div>
+      <div id="projects-list" aria-live="polite" aria-busy="false"></div>
+      <noscript>
+        <p class="no-js">
+          JavaScript is disabled, so projects cannot be loaded.
+          You can still view my work on
+          <a href="https://github.com/ai-cj" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+      </noscript>
     </section>
+
     <section id="contact">
       <h2>Contact</h2>
       <p>
         <a href="mailto:aicj.dev@gmail.com">aicj.dev@gmail.com</a> ·
-        <a href="https://github.com/ai-cj" target="_blank">GitHub</a> ·
-        <a href="https://linkedin.com/in/cjackley" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ai-cj" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://linkedin.com/in/cjackley" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </p>
     </section>
   </main>
+
   <footer>
-    &copy; 2025 CJ Ackley — Software Engineer
+    &copy; 2025 CJ Ackley -- Software Engineer
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
